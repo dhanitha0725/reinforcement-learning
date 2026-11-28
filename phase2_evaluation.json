@@ -1,0 +1,214 @@
+{
+  "settings": {
+    "Provided baseline": {},
+    "Previous Q-learning": {
+      "alpha": 0.05,
+      "gamma": 0.95,
+      "start_epsilon": 0.3,
+      "end_epsilon": 0.05,
+      "decay": "linear"
+    },
+    "Tuned Q-learning": {
+      "alpha": 0.02,
+      "gamma": 0.99,
+      "start_epsilon": 0.5,
+      "end_epsilon": 0.1,
+      "decay": "linear"
+    },
+    "Previous SARSA": {
+      "alpha": 0.1,
+      "gamma": 0.99,
+      "start_epsilon": 0.5,
+      "end_epsilon": 0.05,
+      "decay": "linear"
+    },
+    "Tuned SARSA": {
+      "alpha": 0.02,
+      "gamma": 0.99,
+      "start_epsilon": 0.5,
+      "end_epsilon": 0.05,
+      "decay": "quadratic"
+    },
+    "Q-learning at tuned SARSA settings": {
+      "alpha": 0.02,
+      "gamma": 0.99,
+      "start_epsilon": 0.5,
+      "end_epsilon": 0.05,
+      "decay": "quadratic"
+    },
+    "SARSA at tuned Q-learning settings": {
+      "alpha": 0.02,
+      "gamma": 0.99,
+      "start_epsilon": 0.5,
+      "end_epsilon": 0.1,
+      "decay": "linear"
+    }
+  },
+  "holdout": {
+    "Provided baseline": {
+      "phase": "mdp",
+      "mean_return": 0.03770314877252506,
+      "mean_max_drawdown": 0.03388941582053604,
+      "score": 0.020758440862257036,
+      "position_changes": 5.1,
+      "invested_fraction": 0.24933333333333332
+    },
+    "Previous Q-learning": {
+      "phase": "mdp",
+      "mean_return": 0.02801316345653826,
+      "mean_max_drawdown": 0.02996869370473216,
+      "score": 0.01302881660417218,
+      "position_changes": 5.46,
+      "invested_fraction": 0.20216666666666666
+    },
+    "Tuned Q-learning": {
+      "phase": "mdp",
+      "mean_return": 0.03731597457092546,
+      "mean_max_drawdown": 0.03567209716384754,
+      "score": 0.01947992598900169,
+      "position_changes": 4.64,
+      "invested_fraction": 0.2681666666666666
+    },
+    "Previous SARSA": {
+      "phase": "mdp",
+      "mean_return": 0.03612614042584125,
+      "mean_max_drawdown": 0.033419806162501425,
+      "score": 0.01941623734459054,
+      "position_changes": 4.74,
+      "invested_fraction": 0.24483333333333335
+    },
+    "Tuned SARSA": {
+      "phase": "mdp",
+      "mean_return": 0.040067085198676224,
+      "mean_max_drawdown": 0.03763485007637544,
+      "score": 0.021249660160488505,
+      "position_changes": 4.26,
+      "invested_fraction": 0.28783333333333333
+    },
+    "Q-learning at tuned SARSA settings": {
+      "phase": "mdp",
+      "mean_return": 0.045880180521283336,
+      "mean_max_drawdown": 0.05923400807921993,
+      "score": 0.016263176481673372,
+      "position_changes": 6.53,
+      "invested_fraction": 0.4586666666666667
+    },
+    "SARSA at tuned Q-learning settings": {
+      "phase": "mdp",
+      "mean_return": 0.04064274327648947,
+      "mean_max_drawdown": 0.04833031266486368,
+      "score": 0.016477586944057633,
+      "position_changes": 6.71,
+      "invested_fraction": 0.35499999999999987
+    }
+  },
+  "official": {
+    "Provided baseline": {
+      "phase": "mdp",
+      "mean_return": 0.04420605489025735,
+      "mean_max_drawdown": 0.032643765916911295,
+      "score": 0.0278841719318017,
+      "position_changes": 4.7,
+      "invested_fraction": 0.25566666666666665
+    },
+    "Previous Q-learning": {
+      "phase": "mdp",
+      "mean_return": 0.034868474570693905,
+      "mean_max_drawdown": 0.02656139789046068,
+      "score": 0.021587775625463566,
+      "position_changes": 5.24,
+      "invested_fraction": 0.19466666666666668
+    },
+    "Tuned Q-learning": {
+      "phase": "mdp",
+      "mean_return": 0.04980429708275741,
+      "mean_max_drawdown": 0.03278849894165341,
+      "score": 0.033410047611930706,
+      "position_changes": 4.1,
+      "invested_fraction": 0.27566666666666667
+    },
+    "Previous SARSA": {
+      "phase": "mdp",
+      "mean_return": 0.045258284819522744,
+      "mean_max_drawdown": 0.03082130659968942,
+      "score": 0.029847631519678036,
+      "position_changes": 4.38,
+      "invested_fraction": 0.253
+    },
+    "Tuned SARSA": {
+      "phase": "mdp",
+      "mean_return": 0.054329037130440815,
+      "mean_max_drawdown": 0.036141034588693215,
+      "score": 0.03625851983609421,
+      "position_changes": 3.94,
+      "invested_fraction": 0.30000000000000004
+    },
+    "Q-learning at tuned SARSA settings": {
+      "phase": "mdp",
+      "mean_return": 0.07183732210987996,
+      "mean_max_drawdown": 0.05549332899887156,
+      "score": 0.04409065761044418,
+      "position_changes": 5.78,
+      "invested_fraction": 0.47200000000000003
+    },
+    "SARSA at tuned Q-learning settings": {
+      "phase": "mdp",
+      "mean_return": 0.056859052206129294,
+      "mean_max_drawdown": 0.04701930609316943,
+      "score": 0.03334939915954458,
+      "position_changes": 6.14,
+      "invested_fraction": 0.37200000000000005
+    }
+  },
+  "holdout_differences": {
+    "Tuned Q-learning minus Previous Q-learning": {
+      "difference": 0.006451109384829512,
+      "ci95": [
+        -4.020873397833817e-05,
+        0.013356207773574347
+      ]
+    },
+    "Tuned SARSA minus Previous SARSA": {
+      "difference": 0.0018334228158979633,
+      "ci95": [
+        -0.003933773902425001,
+        0.007690376294831765
+      ]
+    },
+    "Tuned Q-learning minus Provided baseline": {
+      "difference": -0.0012785148732553397,
+      "ci95": [
+        -0.005472745397562175,
+        0.0030377619812404057
+      ]
+    },
+    "Tuned SARSA minus Provided baseline": {
+      "difference": 0.0004912192982314728,
+      "ci95": [
+        -0.005791711934957119,
+        0.00669748800803423
+      ]
+    },
+    "Tuned Q-learning minus Tuned SARSA": {
+      "difference": -0.0017697341714868126,
+      "ci95": [
+        -0.008579265374755216,
+        0.004940530931597905
+      ]
+    },
+    "Tuned Q-learning minus SARSA at tuned Q-learning settings": {
+      "difference": 0.003002339044944059,
+      "ci95": [
+        -0.005554115858042126,
+        0.011444296540364815
+      ]
+    },
+    "Q-learning at tuned SARSA settings minus Tuned SARSA": {
+      "difference": -0.0049864836788151385,
+      "ci95": [
+        -0.01769663843848236,
+        0.008402445752784192
+      ]
+    }
+  }
+}

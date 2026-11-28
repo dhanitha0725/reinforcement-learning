@@ -1,0 +1,93 @@
+DEVELOPMENT SWEEP
+Epsilon-greedy: {'epsilon': 0.1, 'alpha': 0.1} mean=1.187466
+Epsilon-greedy: {'epsilon': 0.1, 'alpha': 0.2} mean=1.016010
+Epsilon-greedy: {'epsilon': 0.15, 'alpha': 0.1} mean=1.146314
+Epsilon-greedy: {'epsilon': 0.15, 'alpha': 0.2} mean=1.212557
+Epsilon-greedy: {'epsilon': 0.25, 'alpha': 0.1} mean=1.183987
+Epsilon-greedy: {'epsilon': 0.25, 'alpha': 0.2} mean=1.020599
+Chosen Epsilon-greedy: {'epsilon': 0.15, 'alpha': 0.2}, mean=1.212557
+Sliding-window UCB: {'window': 30, 'exploration': 0.01} mean=1.072360
+Sliding-window UCB: {'window': 30, 'exploration': 0.03} mean=0.924383
+Sliding-window UCB: {'window': 30, 'exploration': 0.06} mean=0.558942
+Sliding-window UCB: {'window': 50, 'exploration': 0.01} mean=1.221458
+Sliding-window UCB: {'window': 50, 'exploration': 0.03} mean=0.911727
+Sliding-window UCB: {'window': 50, 'exploration': 0.06} mean=0.695748
+Sliding-window UCB: {'window': 80, 'exploration': 0.01} mean=1.144546
+Sliding-window UCB: {'window': 80, 'exploration': 0.03} mean=0.892779
+Sliding-window UCB: {'window': 80, 'exploration': 0.06} mean=0.782819
+Chosen Sliding-window UCB: {'window': 50, 'exploration': 0.01}, mean=1.221458
+Discounted Thompson: {'discount': 0.94, 'noise': 0.01} mean=0.922426
+Discounted Thompson: {'discount': 0.94, 'noise': 0.03} mean=0.674133
+Discounted Thompson: {'discount': 0.94, 'noise': 0.06} mean=0.578211
+Discounted Thompson: {'discount': 0.97, 'noise': 0.01} mean=0.895554
+Discounted Thompson: {'discount': 0.97, 'noise': 0.03} mean=0.677616
+Discounted Thompson: {'discount': 0.97, 'noise': 0.06} mean=0.501613
+Discounted Thompson: {'discount': 0.99, 'noise': 0.01} mean=0.663600
+Discounted Thompson: {'discount': 0.99, 'noise': 0.03} mean=0.619642
+Discounted Thompson: {'discount': 0.99, 'noise': 0.06} mean=0.529703
+Chosen Discounted Thompson: {'discount': 0.94, 'noise': 0.01}, mean=0.922426
+
+INDEPENDENT COMPARISON
+Epsilon-greedy: {'epsilon': 0.15, 'alpha': 0.2} mean=1.226992 min=0.103945 max=2.342490 std=0.591135
+  300000: 2.342490
+  300001: 1.338604
+  300002: 1.115611
+  300003: 1.099084
+  300004: 2.034906
+  300005: 2.070819
+  300006: 1.214534
+  300007: 1.117842
+  300008: 0.103945
+  300009: 1.225137
+  300010: 1.548352
+  300011: 1.479477
+  300012: 0.699734
+  300013: 1.837533
+  300014: 1.195158
+  300015: 1.829625
+  300016: 0.528818
+  300017: 0.327804
+  300018: 0.537231
+  300019: 0.893134
+Sliding-window UCB: {'window': 50, 'exploration': 0.01} mean=1.367758 min=0.410380 max=2.236934 std=0.586758
+  300000: 1.922450
+  300001: 1.528469
+  300002: 1.146548
+  300003: 0.583122
+  300004: 1.216943
+  300005: 2.195118
+  300006: 1.094221
+  300007: 1.948417
+  300008: 0.574229
+  300009: 0.868672
+  300010: 1.603977
+  300011: 0.642943
+  300012: 1.309554
+  300013: 1.495328
+  300014: 1.954266
+  300015: 2.236934
+  300016: 0.665155
+  300017: 0.410380
+  300018: 2.104331
+  300019: 1.854096
+Discounted Thompson: {'discount': 0.94, 'noise': 0.01} mean=0.978887 min=-0.048837 max=1.595720 std=0.453321
+  300000: 1.595720
+  300001: 0.785733
+  300002: 1.035198
+  300003: 1.123616
+  300004: 1.259905
+  300005: 0.801470
+  300006: 1.415851
+  300007: 0.986118
+  300008: -0.048837
+  300009: 1.586783
+  300010: 0.344284
+  300011: 0.937393
+  300012: 0.261684
+  300013: 1.352053
+  300014: 0.708409
+  300015: 1.226600
+  300016: 0.648432
+  300017: 0.602295
+  300018: 1.480289
+  300019: 1.474741
